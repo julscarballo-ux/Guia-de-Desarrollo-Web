@@ -1,0 +1,157 @@
+/* Fondo */
+body {
+  background-image: url(https://tse1.mm.bing.net/th/id/OIP.dMtDo4kWksuD6VP5vO5J-QAAAA?r=0&cb=thfvnext&w=300&h=300&rs=1&pid=ImgDetMain&o=7&rm=3);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700&display=swap');
+
+/* Navbar */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #0f162e;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #0e2735;
+}
+
+/* Títulos */
+.titulo {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 20px;
+  color: #130b30;
+}
+
+.subtitulo {
+  text-align: center;
+  font-weight: 300;
+  color: #555;
+}
+
+/* Secciones */
+main {
+  padding: 20px;
+}
+
+h3 {
+  color: #0077b6;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+/* Cápsulas blancas */
+.capsula {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 800px;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+/* Imagen de los libros */
+.imagen-libros {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.imagen-libros img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.imagen-libros img:hover {
+  transform: scale(1.05);
+}
+
+/* Galería */
+.galeria-imagenes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.galeria-imagenes img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.galeria-imagenes img:hover {
+  transform: scale(1.05);
+}
+
+/* Personajes */
+.personajes {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.personajes li {
+  margin: 10px 0;
+}
+
+/* Opinión personal */
+#opinion {
+  text-align: center;
+}
+
+.opinion-foto img {
+  margin-top: 15px;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.opinion-foto img:hover {
+  transform: scale(1.08);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #ff7f7f;
+  color: #fff;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 20px 20px 0 0;
+}
